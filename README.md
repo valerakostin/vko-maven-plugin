@@ -1,4 +1,4 @@
-Maven Plugin for cloning classes from template with the new name.
+Maven Plugin for generating subclasses from template without new functionality 
 
 ## Core Configuration
 
