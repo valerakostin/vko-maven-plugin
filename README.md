@@ -36,12 +36,13 @@ Maven Plugin for cloning classes from template with the new name.
         </plugins>
     </build>
 </project>
+```
 
-```xml
 
 baseClass - class for cloning
-count number of instances (default: 10)
 
+count - number of instances (default: 10)
+ 
 
 ```java
 package vko;
@@ -66,5 +67,6 @@ public class Main {
         } catch (InstantiationException e) {
             e.printStackTrace();
         }
-    }
+    }   
 }
+```
